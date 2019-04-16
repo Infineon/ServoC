@@ -36,7 +36,7 @@
 
 class ServoC
 {
-	uint8_t servopin;
+	int servopin;
 	float   delay_time;
 	public:
 	void attach(int servo_pin);  // To initialise the servo pin
