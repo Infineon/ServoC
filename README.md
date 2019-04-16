@@ -1,6 +1,6 @@
 # ServoC
 
-[![Build Status](https://travis-ci.org/Infineon/Servsvg?branch=master)](https://travis-ci.org/Infineon/ServoC)
+[![Build Status](https://travis-ci.org/Infineon/ServoC.svg?branch=master)](https://travis-ci.org/Infineon/ServoC)
 
 library  to control the micro servo sg90 motor without using the traditional Arduino Servo library.
 
