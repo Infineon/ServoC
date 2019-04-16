@@ -1,0 +1,13 @@
+{
+  "name": "ServoC Library ",
+  "keywords": "servo motor, sg-90, xmc, servo shield",
+  "description": "Barebones library to work with Tower Pro SG-90 Servo Motor.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Infineon/ServoC.git"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "infineonxmc"
+}
