@@ -10,8 +10,8 @@ branches:
 
 env:
     global:
-        - USR_NAME="Sun Yuxi (IFAG DES SDF FW)"
-        - USR_EMAIL="Yuxi.Sun@infineon.com"
+        - USR_NAME="Swarnam Panday (IFIN DES TCP EDS)"
+        - USR_EMAIL="Swarnam.Panday@infineon.com"
         - secure: Enf0zBLAVvMGdQr2IqJgECXQ50mkLPhBB3LdxI7g0usPTrYYY7/X2ySRKZYqs+W87raVQ1S1pU35S8XvZ4Lf4cfhmQCLnVnMxinDK7gdku0pgwObWCwHcsYj8fObaK8bF19mhLnXORx6FXoLs/MJrCsqoJdCT6g8OIYStBJD1hyAg7ttHwWtopC+Z1W3dXqqO1tUl2rN/zm4l2YWVoc3CI8JewDalbcSyx5l0muClzxSKvCGYZ6ia62QoenctDnDu4rqoJL9f/T2x4fclqFx06T2mmmYOlzE3fC3HgeephskWtNY8x4+MDXG8ZIdyxsSQrX4vBf8Y4DTvm067VI8GW6P6hu2fLf2WxKDllmnugp+tzdIZA/G9qzG9bCqgsHhWq1nPCSf7H3eGQ38nMg5nsrZW6hx20GHkEMiFEiLZC5VqANihowskEjRmTeTQBEjvUC0+WDGA5i0C8U/J7Ti/u6VOKltGZpJmPvkJRnc8dpous+om7DrjLF+ft17LuSt4o7XgrMqGqKjL0vWPoAPve1BUVRPaDh6oU3znBnQLjk787SoypwUSg/VOu86iqQa2VhJI1dUsPu7PMNltL1DiLlWoPKA+0x9fAZ5qZFuiBg5cxOEgoGcXJ7GOlSYdLDBhaMqynh1/j2Ka18Wr5SKjOWAia+yyg6X0p0IvapnNhU=
     matrix:
         - PLATFORMIO_CI_SRC=examples/Knob
@@ -23,7 +23,7 @@ install:
     - platformio platform install -f infineonxmc
 
 script:
-    - platformio ci --lib="." --board=xmc1100_xmc2go --board=xmc1100_boot_kit --board=xmc4700_relax_kit
+    - platformio ci --lib="." --board=xmc1100_xmc2go --board=xmc1100_boot_kit --board=xmc4700_relax_kit --board nodemcuv2 --board=uno
 
 after_success:
     # # only build once (after one job by checking id, however this does not work reliably)
