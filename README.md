@@ -1,3 +1,8 @@
+## Deprecation Notice
+> [!WARNING]
+> This library is **deprecated** and no longer maintained.
+> With [this pull request](https://github.com/arduino-libraries/Servo/pull/114/files) XMC was added to the [Arduino servo library](https://github.com/arduino-libraries/Servo).
+
 # ServoC
 
 [![Build Status](https://travis-ci.org/Infineon/ServoC.svg?branch=master)](https://travis-ci.org/Infineon/ServoC)
